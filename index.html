@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
     
-        <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="style.css">
         <title>Landing Page TOP</title>
         <meta charset="UTF-8">
 
@@ -20,31 +20,37 @@
         </header>
         <body>
         <div class="logo">
-            <h2>This is where some text will go</h2>
-            <p>This is where more text willl go, slightly smaller and less contrast</p>
-            <button class="button top">Sign Up Now!</button>
+            <h2>This is where some text will go. It should be an about us.</h2>
+            <p class="bodytext">This is where more text willl go, slightly smaller and less contrast. Go into more detail here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus purus vitae tortor vulputate, euismod imperdiet ipsum blandit. Nam in facilisis magna. Suspendisse at massa vel ligula mattis interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec magna quam, accumsan ut varius ut, convallis sit amet massa. Sed eu semper mauris. Aliquam erat volutpat. Proin sed libero eget dolor volutpat vehicula non ut tortor. Nullam luctus at risus at fringilla. In ornare gravida mauris eget suscipit. Aliquam erat volutpat. Cras sodales congue elit, in efficitur urna ultricies et. Sed quis scelerisque ex, nec pulvinar. </p>
+            <label for="email" class="email top"><input type="email" placeholder="Stay Up To Date!">Enter email here!</label>
+            <button class="button top email">Sign Up Now!</button>
         
             <img src="../../../Pictures/your-logo.jpeg"alt="logo" class="yourlogo" height="300px" width="600px">
         </div>
-        <h3 class="about-us">You can describe your company more in detail here</h3>
+        <h3 class="about-us bodytext" id="about-us">You can describe your company more in detail here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus purus vitae tortor vulputate, euismod imperdiet ipsum blandit. Nam in facilisis magna. Suspendisse at massa vel ligula mattis interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec magna quam, accumsan ut varius ut, convallis sit amet massa. Sed eu semper mauris. Aliquam erat volutpat. Proin sed libero eget dolor volutpat vehicula non ut tortor. Nullam luctus at risus at fringilla. In ornare gravida mauris eget suscipit. Aliquam erat volutpat. Cras sodales congue elit, in efficitur urna ultricies et. Sed quis scelerisque ex, nec pulvinar. </h3>
         <div class="images">
-            <img src="../../../Pictures/loading.jpg" height="250px" width="250px">
-            <img src="../../../Pictures/loading.jpg" height="250px" width="250px">
-            <img src="../../../Pictures/loading.jpg" height="250px" width="250px">
-            <img src="../../../Pictures/loading.jpg" height="250px" width="250px">
-            <img src="../../../Pictures/loading.jpg" height="250px" width="250px">
-
+            <div class="picturecolumns"><img src="../../../Pictures/loading.jpg" height="150px" width="150px" class="pics">
+                <div class="text-1">some text will go here. It should wrap multiple lines.</div></div>
+                <div class="picturecolumns"><img src="../../../Pictures/loading.jpg" height="150px" width="150px"px class="pics">
+                <div class="text-1">some text will go here. It should wrap multiple lines.</div></div>
+                <div class="picturecolumns"><img src="../../../Pictures/loading.jpg" height="150px" width="150px"px class="pics">
+                <div class="text-1">some text will go here. It should wrap multiple lines.</div></div>
+                <div class="picturecolumns"><img src="../../../Pictures/loading.jpg" height="150px" width="150px"px class="pics">
+                <div class="text-1">some text will go here. It should wrap multiple lines.</div></div>
+                <div class="picturecolumns"><img src="../../../Pictures/loading.jpg" height="150px" width="150px"px class="pics">
+                <div class="text-1">some text will go here. It should wrap multiple lines.</div></div>
         </div>
 
-        <h4 class="success-stories"><em>This, is where a large and rather fancy looking quote should go. Success Stories work best.</em></h4>
+        <h4 class="success-stories" id="success-stories"><em>This, is where a large and rather fancy looking quote should go. Success Stories work best. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus bibendum lectus eu faucibus. Vestibulum et vehicula nulla, eget mattis elit. Morbi non urna feugiat. </em></h4>
 
         </body>
 
         <footer>
 
-            <button class="button bottom">Don't forget to sign up!</button>
+            <label for="email" class="email bottom"><input type="email" placeholder="Stay Up To Date!">Enter email here!</label>
+            <button class="button bottom">Sign Up Now!</button>
 
-            <p class="contact-info">This is where &copy; info and company name goes. This should be centered.</p>
+            <p class="contact-info" id="contact-info">This is where &copy; info and company name goes.</p>
 
             </footer>
     </body>

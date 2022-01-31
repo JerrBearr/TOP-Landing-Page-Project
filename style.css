@@ -1,3 +1,14 @@
+body {
+    font-family: roboto, monospace, sans-serif;
+    background-color: slateblue;
+    /*min-width: 100vh;*/
+}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -6,8 +17,39 @@ header {
 }
 
 h1 {
-    font-size: 48px;
+    font-family: cursive;
+    font-size: 5em;
     font-weight: 900;
+    margin-left: 1.5em;
+}
+
+h2 {
+    font-family: Verdana;
+    align-self: center;
+    padding: 2em 0em;
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bodytext {
+margin: 7.5em 10em 5em;
+}
+
+.text-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin-top: 2em;
+}
+
+p {
+    padding: 2em 0px;
+    margin: 0px 2em;
+    align-self: auto;
 }
 
 ul {
@@ -21,11 +63,14 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: rgba(224, 118, 250, 0.664);
+    min-width: 100vw;
 }
 
 .yourlogo {
     opacity: .4;
-    align-self: flex-end;
+    align-self: center;
+    border-style: solid;
+    border-color: violet;
 }
 
 footer {
@@ -33,8 +78,15 @@ footer {
     flex-direction: column;
     padding: 10px;
     margin: 0px;
+    height: 125px;
     justify-content: center;
     align-items: center;
+    background-color: royalblue;
+    font-family: monospace;
+    width: 100%;
+    position: absolute;
+    bottom: auto;
+    opacity: .4;
 }
 
 button.top {
@@ -50,11 +102,50 @@ button.top {
 
 .images {
     display: flex;
+    flex: 1;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 12px;
-    border-radius: 25%;
+    justify-content: space-evenly;
+    margin: 30px 10px 30px 0px;
+    opacity: .5;
+}
+
+.picturecolumns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+.pics {
+    flex: 1 1 100px;
     border-style: solid;
-    border-color: blue;
-    
+    border-width: 2px;
+    border-color: violet;
+    border-radius: 50%;
+}
+
+h4 {
+    font-size: 4em;
+    font-family: cursive;
+    padding: 0px 1.25em;
+    text-align: justify;
+    margin: 2em;
+}
+
+.email  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+.email.top {
+    margin-left: 3em;    
+}
+
+input {
+    margin-right: 30px;
 }
