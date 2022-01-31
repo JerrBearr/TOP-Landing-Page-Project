@@ -26,3 +26,5 @@ Assignment
 
     reflection after the assignment is complete:
 
+    This was a lot of fun. When I can figure out my own solutions to problems, I seem to get less frustrated and can work for much longer periods of time. I enjoyed making this page more than I enjoyed making the freecodecamp one, and feel like i did a much better job.
+
